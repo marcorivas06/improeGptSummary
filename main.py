@@ -16,7 +16,7 @@ class LLMAgent(object):
     def create_openai_agent(self):
         self.llm = "openai"
         # PLEASE CHANGE THIS KEY FOR TESTING SINCE ITS USING FUNDS OF MY ACCOUNT !!!!!!!!!!!!!!!!!!!
-        self.key = "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" 
+        self.key = "<YOUR API KEY>" 
         self.model = "gpt-3.5-turbo"  # DO NOT CHANGE THIS!
         openai.api_key = self.key
     
